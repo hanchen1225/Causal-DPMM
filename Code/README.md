@@ -1,4 +1,4 @@
 # Code for STA 702 project
-- Run `eda.R` to do exploratory data analysis
-- Run `dpm.R` to do DPMM
-- Run `compare.R` to do other frequentist and Bayesian analysis
+- Run `cln_eda.R` to do exploratory data analysis
+- Run `cln_dpm.R` to do DPMM
+- Run `cln_compare.R` to do other frequentist and Bayesian analysis
