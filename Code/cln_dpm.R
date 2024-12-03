@@ -8,7 +8,7 @@ Bern_likelihood <- function(x, y, beta) {
   exp((x %*% beta)[1, 1]) ^ y / (1 + exp((x %*% beta)[1, 1]))
 }
 #
-Gibbs_sampler <- function(X, y, alpha = 5, m = 1, mu0 = NULL, Sigma0 = NULL, S = 1e5, B = 9e4) {
+Gibbs_sampler <- function(X, y, alpha = 7, m = 1, mu0 = NULL, Sigma0 = NULL, S = 1e5, B = 9e4) {
   n <- length(y)
   p <- ncol(X)
   if(is.null(mu0)) mu0 <- rep(0, p)
