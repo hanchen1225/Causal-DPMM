@@ -1,2 +1,2 @@
 # Causal-DPMM
-Code and data for STA 702 project
+The data and code for reproducing the figures and numerical results of STA 702 project.
